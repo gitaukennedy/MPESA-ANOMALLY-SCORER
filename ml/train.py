@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # ── 1. Load data ──────────────────────────────
+DATA_PATH = Path('data/transactions.csv')
 df = pd.read_csv(DATA_PATH)
 df['timestamp'] = pd.to_datetime(df['timestamp'])
 
