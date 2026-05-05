@@ -4,7 +4,7 @@ import requests
 # ─────────────────────────────────────────────
 # API CONFIG
 # ─────────────────────────────────────────────
-API_URL = " http://127.0.0.1:8000"
+API_URL = "https://mpesa-anomally-scorer-2.onrender.com/score_explain"
 
 # ─────────────────────────────────────────────
 # PAGE CONFIG
